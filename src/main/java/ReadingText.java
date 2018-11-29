@@ -8,7 +8,7 @@ public class ReadingText {
     public static void main(String args[]) throws IOException {
 
         //Loading an existing document
-        File file = new File("/Users/vincentyuan/Documents/Discover_Financial_Services/Research/statement_demo_2.pdf");
+        File file = new File(Common_Path.PDF_demo);
         PDDocument document = PDDocument.load(file);
 
         //Instantiate PDFTextStripper class
